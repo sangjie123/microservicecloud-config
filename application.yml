@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev   #开发环境
+  application:
+    name: microservicecloud-config-atztesoft-dev
+---
+spring:
+  profiles: dev   #测试环境环境
+  application:
+    name: microservicecloud-config-atztesoft-test
+#  请保存utf-8格式
