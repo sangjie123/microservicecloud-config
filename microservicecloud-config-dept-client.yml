@@ -75,7 +75,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.45.32.102:3306/ztesoft03
+    url: jdbc:mysql://10.45.32.102:3306/ztesoft02
     max-active: 100
     maxPoolSize: 100
     minPoolSize: 5
